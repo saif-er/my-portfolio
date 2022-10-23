@@ -22,7 +22,7 @@ export const Grid2Styled = styled(Grid2)`
       font-weight: 900;
       font-size: 10rem;
       color: #d1c5ad;
-      order: -1;
+      /* order: -1; */
     }
   }
 
@@ -32,14 +32,24 @@ export const Grid2Styled = styled(Grid2)`
     }
     & h1 {
       font-weight: 900;
-      font-size: 6rem;
+      font-size: 8rem;
       color: #d1c5ad;
     }
   }
 
   @media screen and (max-width: 25em) {
     padding-top: 3em;
+    /* row-gap: 1rem; */
+
+    .title {
+      order: 2;
+    }
+    .image {
+      order: 1;
+    }
+
     & h1 {
+      text-align: center;
       font-weight: 900;
       font-size: 4rem;
       color: #d1c5ad;

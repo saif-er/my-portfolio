@@ -5,12 +5,12 @@ import HomeImage from '../../Elements/HomeImage/HomeImage';
 const Home = () => {
   return (
     <Grid2Styled container>
-      <Grid2>
+      <Grid2 className='title'>
         <h1>
           MOHAMMAD<br></br>SAIFUDDIN
         </h1>
       </Grid2>
-      <Grid2>
+      <Grid2 className='image'>
         <HomeImage />
       </Grid2>
     </Grid2Styled>

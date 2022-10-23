@@ -15,8 +15,12 @@ const homeImageAnimation = keyframes`
 `;
 
 export const Img = styled.img`
-  width: 30rem;
+  width: 35rem;
   animation: ${homeImageAnimation} 8s ease-in-out infinite 1s;
+
+  @media screen and (max-width: 25em) {
+    width: 25rem;
+  }
 `;
 
 export const BoxStyled = styled(Box)`
